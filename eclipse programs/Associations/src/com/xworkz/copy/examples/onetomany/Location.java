@@ -46,6 +46,7 @@ public class Location {
 			System.out.println("it is a null value");
 		}
 		
+		
 		if(state!=null)
 		{
 			

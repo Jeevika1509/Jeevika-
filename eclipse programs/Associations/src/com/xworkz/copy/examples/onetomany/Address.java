@@ -6,6 +6,7 @@ public class Address {
 	
 	public Address(Location location) {
 		this.location=location;
+		
 	}
 
 

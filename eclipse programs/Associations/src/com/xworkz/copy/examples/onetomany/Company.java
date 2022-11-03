@@ -18,10 +18,12 @@ public class Company {
 		this.address = address;
 	}
 	
+	
 	public void showOff5() {
 		
 		System.out.println(this.name);
 		System.out.println(this.ownerName);
+		
 		
 		if(address!=null)
 		{

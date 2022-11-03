@@ -40,6 +40,8 @@ public class PersonRunner {
 		Email email2=new Email("jeevika@gmail.com","jeevika",9298475458l);
 		
 		Email[] emails = {email1,email2};
+		company.showOff5();
+		
         		
 		Person person=new Person("spoorthi");
 		
