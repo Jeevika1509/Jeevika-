@@ -2,17 +2,17 @@ package com.xworkz.copy.examples;
 
 public class Bag {
 	
-	public String brand="wildcraft";
-	public String color="green";
-	public double price=1500;
-	public int warranty=1;
+	private String brand="wildcraft";
+	private String color="green";
+	private double price=1500;
+	private int warranty=1;
 	public boolean adjustable=true;
 	public boolean laptopCompatible=false;
 	public String material="polyester";
 	public boolean waterResistant=false;
-	public double capacity=1;
-	public String offers="5%";
-	public int quantity=1;
+	double capacity=1;
+	String offers="5%";
+	int quantity=1;
 	
 	public String getBrand() {
 		return brand;

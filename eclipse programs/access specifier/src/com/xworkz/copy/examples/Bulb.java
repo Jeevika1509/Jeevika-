@@ -2,17 +2,17 @@ package com.xworkz.copy.examples;
 
 public class Bulb {
 	
-	public String brand="syska";
-	public String color="white";
-	public String modelno="B22";
-	public String type="led";
+	private String brand="syska";
+	private String color="white";
+	private String modelno="B22";
+	private String type="led";
 	public int price=300;
 	public int warranty=1;
 	public boolean working=true;
 	public int quantity=1;
-	public double weight=100;
-	public String material="alluminium";
-	public boolean offers=true;
+	double weight=100;
+	String material="alluminium";
+	boolean offers=true;
 	
 	
 	public String getBrand() {

@@ -2,17 +2,17 @@ package com.xworkz.copy.examples;
 
 public class Mixie {
 
-	public String brand="butterfly";
-	public int modelNumber=655;
-	public String color="grey";
-	public double length=18;
+	private String brand="butterfly";
+	private int modelNumber=655;
+	private String color="grey";
+	private double length=18;
 	public double width=51;
 	public double capacity=1.25;
 	public double speed=20000;
 	public int warranty=1;
-	public int price=3000;
-	public boolean working=true;
-	public String material="stainless steel";
+	int price=3000;
+	boolean working=true;
+	String material="stainless steel";
 	
 	
 	public String getBrand() {

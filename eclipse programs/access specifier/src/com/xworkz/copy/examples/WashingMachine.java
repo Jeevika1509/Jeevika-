@@ -2,17 +2,17 @@ package com.xworkz.copy.examples;
 
 public class WashingMachine {
 
-	public String brand="samsung";
-	public String type="top load";
-	public String color="silver";
-	public double loadCapacity=6.5;
+	private String brand="samsung";
+	private String type="top load";
+	private String color="silver";
+	private double loadCapacity=6.5;
 	public int price=15000;
 	public int modelNo=65;
 	public int quantity=1;
 	public int warranty=1;
-	public boolean offers=true;
-	public boolean working=true;
-	public String material="steel";
+	boolean offers=true;
+	boolean working=true;
+	String material="steel";
 	public String getBrand() {
 		return brand;
 	}

@@ -3,17 +3,17 @@ package com.xworkz.copy.examples;
 public class Fridge {
 	
 
-	public String brand="whirlpool";
-	public String color="grey";
-	public int numberOfDoors=1;
-	public int modelNumber=342;
+	private String brand="whirlpool";
+	private String color="grey";
+	private int numberOfDoors=1;
+	private int modelNumber=342;
 	public double length=260;
 	public double width=67;
 	public double weight=57;
 	public double capacity=56;
-	public double price=15000;
-	public String offers="5%";
-	public int warranty=1;
+	double price=15000;
+	String offers="5%";
+	int warranty=1;
 	
 	public String getBrand() {
 		return brand;

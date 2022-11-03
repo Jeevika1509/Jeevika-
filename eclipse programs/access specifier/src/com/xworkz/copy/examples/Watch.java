@@ -2,18 +2,18 @@ package com.xworkz.copy.examples;
 
 public class Watch {
 
-	public String brand="fastrack";
-	public String modelno="6251SM01";
-	public String type="analog";
-	public String color="grey";
+	private String brand="fastrack";
+	private String modelno="6251SM01";
+	private String type="analog";
+	private String color="grey";
 	public int price=1000;
 	public int warranty=1;
 	public boolean working=true;
 	public boolean waterResistant=true;
 	public String material="metal";
-	public double weight=180;
-	public boolean offers=true;
-	public String getBrand() {
+	double weight=180;
+	boolean offers=true;
+	String getBrand() {
 		return brand;
 	}
 	 void setBrand(String brand) {

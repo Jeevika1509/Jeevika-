@@ -4,57 +4,57 @@ public class BulbReadandModify {
 
 	public Bulb bulb;
 	public void useBulb(Bulb bulb) {
-		System.out.println("accessing bulb brand before modifying:"+bulb.brand);
+		System.out.println("bulb brand: "+bulb.getBrand());
 	    bulb.setBrand("phillips");
 	    System.out.println("modified brand:"+bulb.getBrand());
 	    
 	    System.out.println(System.lineSeparator());
-	    System.out.println("accessing bulb color before modifying:"+bulb.color);
+	    System.out.println("bulb color:"+bulb.getColor());
 	    bulb.setColor("bright white");
 	    System.out.println("modified color:"+bulb.getColor());
 	    
 	    System.out.println(System.lineSeparator());
-	    System.out.println("accessing bulb model no before modifying:"+bulb.modelno);
+	    System.out.println("bulb model no:"+bulb.getModelno());
 	    bulb.setModelno("D33");
 	    System.out.println("modified model no:"+bulb.getModelno());
 	    
 	    System.out.println(System.lineSeparator());
-	    System.out.println("accessing bulb type before modifying:"+bulb.type);
+	    System.out.println("bulb type :"+bulb.getType());
 	    bulb.setType("halogen");
 	    System.out.println("modified bulb type:"+bulb.getType());
 	    
 	    System.out.println(System.lineSeparator());
-	    System.out.println("accessing bulb price before modifying:"+bulb.price);
+	    System.out.println("bulb price:"+bulb.getPrice());
 	    bulb.setPrice(350);
 	    System.out.println("modified price:"+bulb.getPrice());
 	    
 	    System.out.println(System.lineSeparator());
-	    System.out.println("accessing bulb warranty before modifying:"+bulb.warranty);
+	    System.out.println("warranty for bulb :"+bulb.getWarranty());
 	    bulb.setWarranty(2);
 	    System.out.println("modified warranty:"+bulb.getWarranty());
 	    
 	    System.out.println(System.lineSeparator());
-	    System.out.println("accessing bulb working or not before modifying:"+bulb.working);
+	    System.out.println("is bulb working :"+bulb.isWorking());
 	    bulb.setWorking(false);
 	    System.out.println("modified bulb working to:"+bulb.isWorking());
 	    
 	    System.out.println(System.lineSeparator());
-	    System.out.println("accessing bulb quantity before modifying:"+bulb.quantity);
+	    System.out.println("bulb quantity:"+bulb.getQuantity());
 	    bulb.setQuantity(2);
 	    System.out.println("modified quantity:"+bulb.getQuantity());
 	    
 	    System.out.println(System.lineSeparator());
-	    System.out.println("accessing bulb weight before modifying:"+bulb.weight);
+	    System.out.println("bulb weight:"+bulb.getWeight());
 	    bulb.setWeight(130);
 	    System.out.println("modified weight:"+bulb.getWeight());
 	    
 	    System.out.println(System.lineSeparator());
-	    System.out.println("accessing bulb material before modifying:"+bulb.material);
+	    System.out.println("bulb material:"+bulb.getMaterial());
 	    bulb.setMaterial("plastic");
 	    System.out.println("modified material:"+bulb.getMaterial());
 	    
 	    System.out.println(System.lineSeparator());
-	    System.out.println("accessing bulb offers before modifying:"+bulb.offers);
+	    System.out.println("bulb offers:"+bulb.isOffers());
 	    bulb.setOffers(false);
 	    System.out.println("modified offers:"+bulb.isOffers());
 	     

@@ -2,17 +2,17 @@ package com.xworkz.copy.examples;
 
 public class Geyser {
 
-	public String brand="havells";
-	public int modelNumber=46547;
-	public double price=3500;
-	public double capacity=15;
-	public double length=37.3;
+	private String brand="havells";
+	private int modelNumber=46547;
+	private double price=3500;
+	private double capacity=15;
+	private double length=37.3;
 	public double width=22.5;
 	public String color="white";
 	public double weight=3000;
-	public int warranty=1;
-	public int quantity=1;
-	public boolean offers=true;
+	int warranty=1;
+	int quantity=1;
+	boolean offers=true;
 	
 	public String getBrand() {
 		return brand;

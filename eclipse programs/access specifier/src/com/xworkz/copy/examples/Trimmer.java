@@ -2,17 +2,17 @@ package com.xworkz.copy.examples;
 
 public class Trimmer {
 
-	public String brand="phillips";
-	public String color="black";
-	public String type="hair trimmer";
-	public int price=1000;
+	private String brand="phillips";
+	private String color="black";
+	private String type="hair trimmer";
+	private int price=1000;
 	public boolean working=true;
 	public int warranty=1;
 	public int quantity=1;
-	public double weight=0.45;
-	public String material="rubber";
-	public String modelno="mg37";
-	public float length=13;
+	double weight=0.45;
+	String material="rubber";
+	String modelno="mg37";
+	float length=13;
 	
 	public String getBrand() {
 		return brand;

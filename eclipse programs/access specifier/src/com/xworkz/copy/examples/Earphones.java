@@ -2,17 +2,17 @@ package com.xworkz.copy.examples;
 
 public class Earphones {
 	
-	public String brand="boat";
-	public String color="white";
-	public double price=300;
-	public String conectorType="wired";
+	private String brand="boat";
+	private String color="white";
+	private double price=300;
+	private String conectorType="wired";
 	public int modelNo=4545;
 	public int quantity=1;
 	public double weight=343;
 	public int warranty=1;
-	public String offers="5 %";
-	public boolean working=true;
-	public String material="plastic";
+	String offers="5 %";
+	boolean working=true;
+	String material="plastic";
 	
 	public String getBrand() {
 		return this.brand;

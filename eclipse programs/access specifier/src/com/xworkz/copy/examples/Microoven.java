@@ -2,18 +2,18 @@ package com.xworkz.copy.examples;
 
 public class Microoven {
 
-	public String brand="samsung";
-	public int modelNumber=58765;
-	public double length=47;
-	public double width=51;
+	private String brand="samsung";
+	private int modelNumber=58765;
+	private double length=47;
+	private double width=51;
 	public String color="silver";
 	public double weight=17;
 	public String microOvenType="grill";
 	public int price=1000;
-	public int warranty=1;
-	public double capacity=23;
-	public int quantity=1;
-	public String offers="18 %";
+	int warranty=1;
+	double capacity=23;
+	int quantity=1;
+	String offers="18 %";
 	
 	public String getBrand() {
 		return brand;

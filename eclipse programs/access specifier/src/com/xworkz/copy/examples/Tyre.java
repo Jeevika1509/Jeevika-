@@ -2,18 +2,18 @@ package com.xworkz.copy.examples;
 
 public class Tyre {
 	
-	public String brand="TVS Eurogrip";
-	public String modelno="3SCO90 ";
-	public String type="tubed";
-	public boolean durable=true;
-	public double weight=3;
+	private String brand="TVS Eurogrip";
+	private String modelno="3SCO90 ";
+	private String type="tubed";
+	private boolean durable=true;
+	private double weight=3;
 	public int price=450;
 	public int quantity=1;
 	public float loadCapacity=250;
 	public float length=59;
-	public float width=9;
-	public float height=59;
-	public String material="natural rubber";
+	float width=9;
+	float height=59;
+	String material="natural rubber";
 	public String getBrand() {
 		return brand;
 	}

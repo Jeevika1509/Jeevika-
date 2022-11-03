@@ -3,57 +3,57 @@ package com.xworkz.copy.examples;
 public class BagReadandModify {
 	public Bag bag;
 	public void useBag(Bag bag) {
-		System.out.println("accessing bag brand before modifying:"+bag.brand);
+		System.out.println("brand:"+bag.getBrand());
 	     bag.setBrand("hp");
 	     System.out.println("modified brand:"+bag.getBrand());
 	     
 	     System.out.println(System.lineSeparator());
-	     System.out.println("accessing bag color before modifying:"+bag.color);
+	     System.out.println("bag color:"+bag.getColor());
 	     bag.setColor("black");
 	     System.out.println("modified color:"+bag.getColor());
 	     
 	     System.out.println(System.lineSeparator());
-	     System.out.println("accessing bag price before modifying:"+bag.price);
+	     System.out.println(" bag price:"+bag.getPrice());
 	     bag.setPrice(1000);
 	     System.out.println("modified price:"+bag.getPrice());
 	     
 	     System.out.println(System.lineSeparator());
-	     System.out.println("accesing bag warranty before modifying:"+bag.warranty);
+	     System.out.println("bag warranty :"+bag.getWarranty());
 	     bag.setWarranty(2);
 	     System.out.println("modified warranty:"+bag.getWarranty());
 	     
 	     System.out.println(System.lineSeparator());
-	     System.out.println("accesing bag adjustale or not before modifying:"+bag.adjustable);
+	     System.out.println(" bag adjustale :"+bag.isAdjustable());
 	     bag.setAdjustable(false);
-	     System.out.println("modified bag adjustable or not to:"+bag.isAdjustable());
+	     System.out.println("modified bag adjustable to:"+bag.isAdjustable());
 	     
 	     System.out.println(System.lineSeparator());
-	     System.out.println("accesing bag which is laptop comptabile or not before modifying:"+bag.laptopCompatible);
+	     System.out.println("is bag laptop comptabile :"+bag.isLaptopCompatible());
 	     bag.setLaptopCompatible(true);
 	     System.out.println("modified bag laptop compatibility to:"+bag.isLaptopCompatible());
 	     
 	     System.out.println(System.lineSeparator());
-	     System.out.println("accesing bag material before modifying:"+bag.material);
+	     System.out.println("bag material :"+bag.getMaterial());
 	     bag.setMaterial("leather");
 	     System.out.println("modified bag material:"+bag.getMaterial());
 	     
 	     System.out.println(System.lineSeparator());
-	     System.out.println("accesing bag waterResistant property before modifying:"+bag.waterResistant);
+	     System.out.println("is bag waterResistant :"+bag.isWaterResistant());
 	     bag.setWaterResistant(true);
-	     System.out.println("modified bag water resistant or not to:"+bag.isWaterResistant());
+	     System.out.println("modified bag water resistant to:"+bag.isWaterResistant());
 	     
 	     System.out.println(System.lineSeparator());
-	     System.out.println("accesing bag capacity before modifying:"+bag.capacity);
+	     System.out.println("bag capacity :"+bag.getCapacity());
 	     bag.setCapacity(35);
-	     System.out.println("modified brand:"+bag.getCapacity());
+	     System.out.println("modified bag capacity:"+bag.getCapacity());
 	     
 	     System.out.println(System.lineSeparator());
-	     System.out.println("accesing bag offers before modifying:"+bag.offers);
+	     System.out.println("offers for bag:"+bag.getOffers());
 	     bag.setBrand("10 %");
 	     System.out.println("modified offers :"+bag.getOffers());
 	     
 	     System.out.println(System.lineSeparator());
-	     System.out.println("accesing bag quantity before modifying:"+bag.quantity);
+	     System.out.println("bag quantity:"+bag.getQuantity());
 	     bag.setQuantity(2);
 	     System.out.println("modified quantity:"+bag.getQuantity());
 	     

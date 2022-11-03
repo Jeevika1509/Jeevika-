@@ -4,17 +4,17 @@ package com.xworkz.copy.examples;
 
 public class Helmet {
 	
-	public String brand="vega";
-	public double weight=800;
-	public String color="black";
-	public char size='M';
+	private String brand="vega";
+	private double weight=800;
+	private String color="black";
+	private char size='M';
 	public int price=800;
 	public String modelNo="DK";
 	public int quantity=1;
-	public int warranty=1;
-	public boolean offers=true;
-	public boolean ISICertified=true;
-	public String material="Acrylonitrile Butadiene Styrene";
+	int warranty=1;
+	boolean offers=true;
+	boolean ISICertified=true;
+	String material="Acrylonitrile Butadiene Styrene";
 	public String getBrand() {
 		return brand;
 	}

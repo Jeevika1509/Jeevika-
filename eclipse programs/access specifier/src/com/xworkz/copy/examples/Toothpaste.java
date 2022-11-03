@@ -2,17 +2,17 @@ package com.xworkz.copy.examples;
 
 public class Toothpaste {
 
-	public String brand="colgate";
-	public String flavour="minty";
-	public double weight=240;
-	public int warranty=2;
+	private String brand="colgate";
+	private String flavour="minty";
+	private double weight=240;
+	private int warranty=2;
 	public String color="red";
 	public int price=200;
 	public int barcode=28382;
-	public String manufacturingDate="18 nov 2022";
-	public String expiryDate="18 nov 2024";
-	public String offers="12 %";
-	public int quantity=1;
+	String manufacturingDate="18 nov 2022";
+	String expiryDate="18 nov 2024";
+	String offers="12 %";
+	int quantity=1;
 	
 	public String getBrand() {
 		return brand;
