@@ -20,7 +20,7 @@ public class WatchReadandModify {
 	     System.out.println("modified watch type :"+watch.getType());
 	     
 	     System.out.println(System.lineSeparator());
-	     System.out.println("watch color  before modifying to:"+watch.getColor());
+	     System.out.println("watch color before modifying to:"+watch.getColor());
 	     watch.setColor("black");
 	     System.out.println("modified color to:"+watch.getColor());
 	     
