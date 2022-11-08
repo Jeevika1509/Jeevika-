@@ -9,7 +9,14 @@
 
             <div>
             <label>Enter first name</label>
-            <input type="text" name="first name">
+            <input type="text" autocomplete="off" first name" required minlength="2" maxlength="12">
+            
+            </div>
+            <br>
+
+            <div>
+            <label>Enter age</label>
+            <input type="number" name="age" min="10" max="100">
             </div>
             <br>
 
@@ -28,7 +35,13 @@
 
             <div>
                 <label>Enter password</label>
-                <input type="password" name="password">
+                <input type="password" name="password" minlength="8" maxlength="10">
+            </div>
+            <br>
+
+            <div>
+                <label>Mobile Number</label>
+                <input type="tel" name="mobile number" required minlength="10" maxlength="12">
             </div>
             <br>
 
@@ -48,7 +61,22 @@
                     <option>Mangalore</option>
                 </select>
             </div>
+            <br>
 
+            <label>Select course</label>
+            <input type="checkbox">Java
+            <input type="checkbox">Python
+            <input type="checkbox">Dotnet
+
+            <div>
+                <!--input type="submit"-->
+             
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
+          
+            </div>
+
+            
 
 
         </form>
