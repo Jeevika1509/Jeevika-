@@ -1,0 +1,42 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.nav nav{
+    display: flex;
+    justify-content: space-between;
+
+}
+.nav nav h1{
+    padding: 10px;
+}
+span{
+    color: aqua;
+}
+.img{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(./nature.jpeg);
+    height: 100vh;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    padding-top: 250px;
+    
+}
+.img h1{
+    font-size: 50px;
+}
+button
+{
+    padding: 10px 30px;
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(42, 213, 156);
+    text-transform: uppercase;
+}
+
+i{
+    padding: 10px;
+    color: aqua;
+    height: 30px;
+    width: 30px;
+}
