@@ -20,6 +20,14 @@ h2{
     line-height: 32px;
     width: 500px;
 }
+body,html{
+    height:100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
 .container{
     
     width: 400px;
@@ -43,9 +51,9 @@ h2{
 }
 .form input{
     margin-top: 10px;
-margin-left: -10px;
-border-radius: 8px;
-margin-right: -10px;
+   margin-left: -10px;
+   border-radius: 8px;
+   margin-right: -10px;
     padding:17px;
     width: 332px;
 
@@ -72,6 +80,7 @@ p a{
     color: #1877f2;
     background-color: white;
 }
+
 .btn {
     padding: 7px;
     margin-top: 15px;
@@ -81,4 +90,10 @@ p a{
 }
 .btn button{
     background-color:#1b9c24 ;
+}
+footer{
+    text-align:center;
+    padding:3px;
+    background-color:white;
+    color:white;
 }

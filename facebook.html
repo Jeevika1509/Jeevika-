@@ -3,38 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Facebook</title>
     <link rel="stylesheet" href="facebook.css">
+    <link rel="icon" type="image/x-icon" href="facebook.jpg">
+    <style>
+    body {
+     background-image: url('facebookimage.jpg');
+     }
+    </style>
+
 </head>
 <body>
     <div class="textbox">
+        <header>
+            <img src="facebookimg.jfif" width="100px" height="100px">
         <h1>
             facebook
         </h1>
         <h2>
             Facebook helps you connect and share<br> with the people in your life.
         </h2>
+         
+    </header>
+
+   
     </div>
 
 
     <div class="container">
 <div class="form">
+    <input type="text" class="text" placeholder="User Name" minlength="8"> <br>
     <input type="text" class="text" placeholder="Enter Your Email or Phone number"> <br>
-    <input type="password" class="text" placeholder="Password"><br>
+    <input type="password" id="pwd" name="pwd" pattern="(?=.*\d)(?=.*[A-Z]).{8,}" placeholder="password"><br>
+    <input type="number" class="text" placeholder="Phone number" minlength="8"><br>
+    <input type="number" class="text" placeholder="countrycode" minlength="10"><br>
     <button>
         Log In
     </button>
     <p><a href="">forgot password?</a><br></p>
     <div class="btn">
         <button>Create New Account</button>
-     
-         
      </div>
 
-
-
 </div>
-
-    </div>
+     
 </body>
+
+<footer>
+    <p>facebook page</p>
+ </footer>
+
 </html>

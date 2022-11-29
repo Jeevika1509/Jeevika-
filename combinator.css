@@ -1,0 +1,37 @@
+div p{
+    color:blue;
+}
+div > p{
+ color:rgb(210,9,9);
+}
+
+div + p{
+    color:chartreuse;
+   }
+
+div ~ p{
+    color:rgb(25,90,9);
+    position:static;
+}
+.static{
+    position: static;
+}
+.relative{
+    position:relative;
+}
+.fixed{
+    position:fixed;
+    top:0;
+    right:0;
+    background-color: blueviolet;
+}
+ul{
+
+    list-style-type: none;
+    color:antiquewhite;
+    background-color: brown;
+}
+li{
+    padding: 10px;
+    background-color: green;
+}

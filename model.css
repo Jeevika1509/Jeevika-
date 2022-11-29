@@ -1,0 +1,50 @@
+.box{
+
+    padding-bottom: 45px;
+    padding-top: 40px;
+    padding-right: 35px;
+    padding-left: 55px;
+
+    padding: 40px 46px 30px;
+    border:40px solid blue;
+    margin: 20px;
+}
+
+#leftbox{
+    float:left;
+    padding-bottom: 75px;
+    padding-top: 50px;
+    padding-right: 55px;
+    padding-left: 55px;
+
+    border: 15px solid;
+    margin: 25px;
+    height: 150px;
+    width:150px;
+}
+
+#rightbox{
+    float:right;
+    padding-bottom: 15px;
+    padding-top: 40px;
+    padding-right: 35px;
+    padding-left: 55px;
+
+    border:30px;
+    margin:25px;
+    height: 300px;
+    width: 400px;
+}
+
+#bigbox{
+    float: Big;
+    padding-bottom:45px ;
+    padding-top: 40px;
+    padding-right:35px ;
+    padding-left: 55px;
+
+    border:30px;
+    margin:25px;
+    height: 300px;
+    width: 400px;
+}

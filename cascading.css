@@ -1,0 +1,26 @@
+h1{
+    color:purple;
+    font-size: 100px;
+    text-transform: uppercase;
+}
+
+h2{
+    color:blue;
+    font-size: 200px;
+    text-transform:lowercase;
+}
+
+h3{
+    color:brown;
+    font-size: 200px;
+    text-transform: lowercase;
+}
+.classSelector{
+    color:green;
+    font-family:'Courier New', Courier, monospace;
+    text-decoration: underline;
+}
+#header{
+    color:blue;
+    font-size: 100px;
+}

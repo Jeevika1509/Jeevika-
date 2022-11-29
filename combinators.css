@@ -1,0 +1,21 @@
+div p{
+    color:blue;
+}
+div > p{
+ color:rgb(210,9,9);
+}
+
+div + p{
+    color:chartreuse;
+   }
+
+   div ~ p{
+    color:rgb(25,90,9);
+    position:static;
+   }
+   .static{
+    position: static;
+   }
+   reletive{
+    position:relative;
+   }
