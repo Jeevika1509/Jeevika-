@@ -90,11 +90,15 @@ public class God {
 	public void setNoOfTemples(int noOfTemples) {
 		this.noOfTemples = noOfTemples;
 	}
+	
+	
+	
 	@Override
 	public String toString() {
-		return "God [name=" + name + ", gender=" + gender + "]";
+		return "God [name=" + name + ", power=" + power + ", noOfAvatars=" + noOfAvatars + ", avatarName=" + avatarName
+				+ ", gender=" + gender + ", place=" + place + ", temple=" + temple + ", weapons=" + weapons
+				+ ", otherName=" + otherName + ", noOfTemples=" + noOfTemples + "]";
 	}
-	
 	public boolean equals(Object obj) {
 		System.out.println("running equals method");
 		if(obj instanceof God) {
