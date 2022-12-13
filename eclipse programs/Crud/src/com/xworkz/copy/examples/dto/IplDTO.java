@@ -3,7 +3,7 @@ package com.xworkz.copy.examples.dto;
 import com.xworkz.copy.examples.dto.constant.TeamName;
 
 public class IplDTO extends AbstractAuditDTO{
-	private TeamName teamName=TeamName.RCB;
+	private TeamName teamName;
 	private String captainName;
 	private boolean ownerAlive;
 	private double amount;
