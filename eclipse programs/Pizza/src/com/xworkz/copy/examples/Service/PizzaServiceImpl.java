@@ -1,14 +1,12 @@
 package com.xworkz.copy.examples.Service;
 
 import com.xworkz.copy.examples.constant.PizzaSize;
-import com.xworkz.copy.examples.constant.Type;
+
 import com.xworkz.copy.examples.dto.PizzaDTO;
 
 public class PizzaServiceImpl implements PizzaService{
 
 
-	private static final int VEG = 0;
-	private static final int NONVEG = 0;
 
 	@Override
 	public boolean validateAndSave(PizzaDTO dto) {
@@ -19,7 +17,8 @@ public class PizzaServiceImpl implements PizzaService{
 		String company=dto.getCompany();
 		PizzaSize size=dto.getSize();
 		String flavour=dto.getFlavour();
-		Type type=dto.getType();
+		String type=dto.getType();
+		
 		boolean validSize=false;
 		boolean validCompany=false;
 		boolean validName=false;
@@ -68,7 +67,8 @@ public class PizzaServiceImpl implements PizzaService{
 			System.err.println("Invalid flavour"+flavour);
 		}
 	
-		if(type!=null && type.length()<=VEG && type.length()<=NONVEG) {
+		
+		if(type!=null && type=="VEG" || type=="NONVEG") {
 			System.out.println("Valid type"+type);
 			validType=true;
 			

@@ -5,7 +5,6 @@ import java.time.LocalDateTime;
 import com.xworkz.copy.examples.Service.PizzaService;
 import com.xworkz.copy.examples.Service.PizzaServiceImpl;
 import com.xworkz.copy.examples.constant.PizzaSize;
-import com.xworkz.copy.examples.constant.Type;
 import com.xworkz.copy.examples.dto.PizzaDTO;
 
 public class PizzaRunner {
@@ -19,7 +18,7 @@ public class PizzaRunner {
 		pizza.setCheese(true);
 		pizza.setSize(PizzaSize.SMALL);
 		pizza.setFlavour("spicy");
-		pizza.setType(Type.VEG);
+		pizza.setType("VEG");
 		pizza.setCreatedBy("SYSTEM");
 		pizza.setCreatedDate(LocalDateTime.now());
 		

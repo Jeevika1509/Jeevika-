@@ -13,7 +13,7 @@ public class PizzaDTO extends AbstractAuditDTO{
 	private boolean cheese;
 	private double price;
 	private String flavour;
-	private Type type;
+	private String type;
 	@Override
 	public String toString() {
 		return "PizzaDTO [name=" + name + ", company=" + company + ", size=" + size + ", cheese=" + cheese + ", price="
@@ -29,7 +29,7 @@ public class PizzaDTO extends AbstractAuditDTO{
 	}
 
 	public PizzaDTO(String name, String company, PizzaSize size, boolean cheese, double price, String flavour,
-			Type type,String createdBy,LocalDateTime createdDate,String updatedBy,LocalDateTime updatedDate) {
+			String type,String createdBy,LocalDateTime createdDate,String updatedBy,LocalDateTime updatedDate) {
 		
 		super(createdBy,createdDate,updatedBy,updatedDate);
 		this.name = name;
@@ -89,11 +89,11 @@ public class PizzaDTO extends AbstractAuditDTO{
 		this.flavour = flavour;
 	}
 
-	public Type getType() {
+	public String getType() {
 		return type;
 	}
 
-	public void setType(Type type) {
+	public void setType(String type) {
 		this.type = type;
 	}
 	
