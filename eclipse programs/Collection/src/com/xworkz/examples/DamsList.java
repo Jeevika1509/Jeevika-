@@ -2,8 +2,7 @@ package com.xworkz.examples;
 
 import java.util.ArrayList;
 import java.util.Collection;
-
-import javax.swing.text.html.HTMLDocument.Iterator;
+import java.util.Iterator;
 
 public class DamsList {
 	
@@ -1199,8 +1198,16 @@ public class DamsList {
 		
 		Iterator itr4 = damsInIndia.iterator();
 		while (itr4.hasNext()) {
-			String element4 = itr4.next();
+			String element4 = (String) itr4.next();
 			System.out.println(element4.toLowerCase());
+		}
+		
+		Iterator<String> length=damsInIndia.iterator();
+		while(length.hasNext()) {
+			String element=length.next();
+			if(element.length()>=15) {
+				System.out.println("element length greater than 15 characters"+element);
+			}
 		}
 		
 		Iterator<String> remove = damsInIndia.iterator();
