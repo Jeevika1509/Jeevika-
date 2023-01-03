@@ -8,12 +8,13 @@ public class CompanyCEODTO {
 	private String country;
 	private String qualification;
 	private boolean married;
+	private DaughterDTO daughterdto;
 	
 	public CompanyCEODTO() {
 		System.out.println("running constructor with no arguments");
 	}
 
-	public CompanyCEODTO(String name, String company, int age, String country, String qualification, boolean married) {
+	public CompanyCEODTO(String name, String company, int age, String country, String qualification, boolean married,DaughterDTO daughterdto) {
 		super();
 		this.name = name;
 		this.company = company;
@@ -21,6 +22,7 @@ public class CompanyCEODTO {
 		this.country = country;
 		this.qualification = qualification;
 		this.married = married;
+		this.daughterdto=daughterdto;
 	}
 
 	@Override
@@ -42,10 +44,12 @@ public class CompanyCEODTO {
 		return false;
 		
 	}
+	
+
 	@Override
 	public String toString() {
 		return "CompanyCEODTO [name=" + name + ", company=" + company + ", age=" + age + ", country=" + country
-				+ ", qualification=" + qualification + ", married=" + married + "]";
+				+ ", qualification=" + qualification + ", married=" + married + ", daughterdto=" + daughterdto + "]";
 	}
 
 	public String getName() {
@@ -94,6 +98,13 @@ public class CompanyCEODTO {
 
 	public void setMarried(boolean married) {
 		this.married = married;
+	}
+	public DaughterDTO getDaughterdto() {
+		return daughterdto;
+	}
+
+	public void setDaughterdto(DaughterDTO daughterdto) {
+		this.daughterdto = daughterdto;
 	}
 	
 	
