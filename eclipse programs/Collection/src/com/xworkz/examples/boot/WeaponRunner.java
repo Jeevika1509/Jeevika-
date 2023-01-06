@@ -8,7 +8,7 @@ import java.util.stream.Collectors;
 import com.xworkz.examples.DTO.WeaponDTO;
 import com.xworkz.examples.constants.Type1;
 
-public class WeopanRunner {
+public class WeaponRunner {
 
 	public static void main(String[] args) {
 
