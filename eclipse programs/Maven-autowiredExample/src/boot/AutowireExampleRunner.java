@@ -5,7 +5,8 @@ import java.util.Arrays;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
-import autowireExamples.Movie;
+import com.xworkz.spring.Movie;
+
 import configuration.MovieConfiguration;
 
 public class AutowireExampleRunner {

@@ -1,4 +1,4 @@
-package autowireExamples;
+package  com.xworkz.spring;
 
 import org.springframework.stereotype.Component;
 
