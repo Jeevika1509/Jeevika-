@@ -12,7 +12,7 @@ public class Chrome implements Browser{
 	private Provider airtel;
 	@Autowired
 	@Qualifier("jio")
-	private Provider jios;
+	private Provider jio;
 	@Override
 	public void browse() {
 		System.out.println("running browse method in chrome");
