@@ -1,7 +1,7 @@
 package com.xworkz.terroristExample.boot;
 
-import com.xworkz.terroristExample.boot.dto.TerroristDTO;
-import com.xworkz.terroristExample.boot.dto.service.TerroristServiceImpl;
+import com.xworkz.terroristExample.dto.TerroristDTO;
+import com.xworkz.terroristExample.service.TerroristServiceImpl;
 
 public class TerroristExampleRunner {
 

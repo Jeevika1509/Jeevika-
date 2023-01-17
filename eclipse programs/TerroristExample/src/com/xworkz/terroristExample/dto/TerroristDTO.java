@@ -1,4 +1,4 @@
-package com.xworkz.terroristExample.boot.dto;
+package com.xworkz.terroristExample.dto;
 
 import javax.validation.constraints.Max;
 import javax.validation.constraints.Min;

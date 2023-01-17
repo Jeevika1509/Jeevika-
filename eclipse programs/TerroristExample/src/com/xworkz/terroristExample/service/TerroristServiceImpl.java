@@ -1,4 +1,4 @@
-package com.xworkz.terroristExample.boot.dto.service;
+package com.xworkz.terroristExample.service;
 
 import java.util.Set;
 import javax.validation.ConstraintViolation;
@@ -7,7 +7,7 @@ import javax.validation.Validator;
 import javax.validation.ValidatorFactory;
 
 
-import com.xworkz.terroristExample.boot.dto.TerroristDTO;
+import com.xworkz.terroristExample.dto.TerroristDTO;
 
 public class TerroristServiceImpl implements TerroristService{
 
