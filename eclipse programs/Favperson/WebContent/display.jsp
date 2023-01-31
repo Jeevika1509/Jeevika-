@@ -8,7 +8,7 @@
 </head>
 <body>
 <span style="color: blue;">
- details about ${fname} ${lname}. Gender is ${gender}.${fname} is my favorite person because person is ${reason}.${fname} lives in ${address}.
+ This is details about ${fname} ${lname} who is a ${gender}.${fname} is my favorite person cause of ${reason}.${fname} stays in ${address}.
 </span>
 
 </body>
